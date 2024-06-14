@@ -21,7 +21,7 @@ export default function RootLayout({
             <div className="hidden sm:ml-6 sm:block ">
                 <div className="flex space-x-4 ">
                   <a href="/" className="bg-gray-900 text-white items-center rounded-md px-3 py-2 font-medium" aria-current="page">หน้าหลัก</a>
-                  <a href="/product" className="text-gray-100 hover:bg-gray-500 hover:text-white rounded-md px-3 py-2 text-sm font-medium">อาคาร</a>
+                  <a href="/product" className="text-gray-100 hover:bg-gray-500 hover:text-white rounded-md px-3 py-2 text-sm font-medium">อาคารทั้งหมด</a>
                   <a href="/contact" className="text-gray-100 hover:bg-gray-500 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contact Us</a>
                   <label className="swap swap-rotate bg-gray-800">
                     {/* this hidden checkbox controls the state */}

@@ -1,6 +1,7 @@
 export const buildingData = [
     { 
       id:'1',
+      status:true,
       name:'ซอยแสงเจริญ',
       image:'/image/รูปหน้าโกดัง.jpg',
       size:'115sqw',
@@ -25,10 +26,11 @@ export const buildingData = [
       fee:'ไม่มี',
       garbageFee:'มี',
       doorHigh:'',
-      status:true
+      วันที่หมดสัญญา:''
     },
     {
       id:'2',
+      status:true,
       name:'หมื่นทรัพย์แลน 3 ชั้น',
       image:'/image/IMG_5065.jpg',
       size:'80sqw',
@@ -53,10 +55,11 @@ export const buildingData = [
       roadSize:'กว้าง 16 ม.',
       fee:'800 บาท/เดือน',
       garbageFee:'มี',
-      status:true
+      วันที่หมดสัญญา:''
     },
     {
       id:'3',
+      status:true,
       name:'หมื่นทรัพย์แลน 1 ชั้น',
       image:'/image/IMG_5065.jpg',
       size:'80sqw',
@@ -81,10 +84,11 @@ export const buildingData = [
       roadSize:'กว้าง 16 ม.',
       fee:'800 บาท/เดือน',
       garbageFee:'มี',
-      status:true
+      วันที่หมดสัญญา:''
     },
     {
       id:'4',
+      status:true,
       name:'หมื่นทรัพย์แลนห้องคู่',
       image:'/image/IMG_5065.jpg',
       size:'200sqw',
@@ -109,10 +113,11 @@ export const buildingData = [
       roadSize:'กว้าง 16 ม.',
       fee:'800 บาท/เดือน',
       garbageFee:'มี',
-      status:true
+      วันที่หมดสัญญา:''
     },
     {
       id:'5',
+      status:false,
       name:'78',
       image:'image/รูปหน้าโกดัง.jpg',
       size:'80sqw',
@@ -137,6 +142,35 @@ export const buildingData = [
       roadSize:'กว้าง 16 ม.',
       fee:'800 บาท/เดือน',
       garbageFee:'มี',
-      status:true
+      วันที่หมดสัญญา:''
+    },
+    {
+      id:'6',
+      status:false,
+      name:'71',
+      image:'image/รูปหน้าโกดัง.jpg',
+      size:'80sqw',
+      price:'26,000',
+      address:'ซอยแสงเจริญคูหา 7 จ.สมุทรสาคร ต.บางน้ำจืด',
+      buildingType:'โรงงานพร้อมสำนักงาน 3 ชั้น',
+      buildingSize:'10x32x10 ม.',
+      factorySize:'10x20 ตรม.',
+      officeSize:'160 ตรม.',
+      roof:'เมทัลชีท',
+      wall:'ก่ออิฐฉาบเรียบ',
+      floorweight:'3 ตัน/ตรม.',
+      electricSystem:'3 เฟส',
+      electricpower:'30(100)',
+      plumsystem:'4 หุน',
+      enterDoor:'ประตูม้วนไฟฟ้า + รั้วเหล็ก',
+      room:'3 ห้อง',
+      toilet:'5 ห้อง',
+      doorHigh:'4.2 ม.',
+      waterTreatment:'มี',
+      cityPlan:'สีชมพู',
+      roadSize:'กว้าง 16 ม.',
+      fee:'800 บาท/เดือน',
+      garbageFee:'มี',
+      วันที่หมดสัญญา:''
     }
 ]

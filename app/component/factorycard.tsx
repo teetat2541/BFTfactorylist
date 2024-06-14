@@ -8,12 +8,12 @@ const Factorycard = (e: any) => {
 
   return (
     <main>
-      <div className="grid grid-cols-4 gap-5">
+      <div className="flex flex-wrap">
         {buildingData.map((data: any) => (
 
-          <div className="card basic-1/2 bg-base-100 shadow-xl">
+          <div className="card w-full sm:w-1/2 md:w-1/3 lg:w-1/4 bg-base-100 shadow-xl">
             <figure className="px-10 pt-10">
-              <img src={data.image} width={500} title="รูปโรงงาน"></img>
+              <img src={data.image} width={250} title="รูปโรงงาน"></img>
             </figure>
             <div className="card-body items-center text-center">
               <h2 className="card-title">{data.name}</h2>
