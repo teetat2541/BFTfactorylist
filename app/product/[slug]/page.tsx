@@ -15,7 +15,7 @@ const ItemPage = ({ params }:any) => {
   }
 
   return (
-      <div className="text-gray-200 p-5">
+      <div className="p-5">
         <div className="m-5 px-4 sm:px-5">
           <h3 className="text-base font-semibold leading-7 text-gray-100">รายละเอียดอาคาร</h3>
         </div>
