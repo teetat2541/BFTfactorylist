@@ -17,10 +17,10 @@ const ItemPage = ({ params }:any) => {
   return (
       <div className="p-5">
         <div className="m-5 px-4 sm:px-5">
-          <h3 className="text-base font-semibold leading-7 text-gray-100">รายละเอียดอาคาร</h3>
+          <h3 className="text-base font-semibold leading-7">รายละเอียดอาคาร</h3>
         </div>
-        <div className="mt-6 border-2 border-gray-100">
-          <dl className="divide-y-2 divide-x-2 divide-gray-100">
+        <div className="mt-6 border-2 border-gray-400">
+          <dl className="divide-y-2 divide-x-2 divide-gray-400">
             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
               <dt className="text-center text-xl font-medium leading-6"></dt>
               <dd className="mt-1 text-xl leading-6 sm:col-span-2 sm:mt-0"><img src={item.image} width={500} title="รูปโรงงาน"></img></dd>
