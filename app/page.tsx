@@ -19,7 +19,7 @@ return (
           </figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title">ชื่อ : {building.name}</h2>
-            <h4 className="">ที่ตั้ง : {building.address}</h4>
+            <h4 >ที่ตั้ง : {building.address}</h4>
             <p>ขนาด : {building.size}</p>
             <p>ค่าเช่า : {building.price}</p>
             <div className="card-actions">
