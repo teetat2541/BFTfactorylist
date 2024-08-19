@@ -4,6 +4,12 @@ import Link from "next/link";
 import { FC } from "react";
 import { buildingData } from "../api/building/building";
 
+export async function getStaticPaths() {
+  return buildingData.map(item => ({
+    slug: item.id.toString()
+  }));
+}
+
 const Factorycard = () => {
 
   return (
@@ -23,6 +29,7 @@ const Factorycard = () => {
             </figure>
             <div className="card-body items-center text-center">
               <h2 className="card-title">ชื่อ : {data.name}</h2>
+              <h2 className="">ที่ตั้ง : {data.address}</h2>
               <p>ขนาด : {data.size}</p>
               <p>ราคา : {data.price}</p>
               <div className="card-actions">
