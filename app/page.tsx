@@ -8,10 +8,11 @@ return (
   <main>
     <h1 className="m-10 text-5xl text-center">รายชื่อโรงงานที่ว่างในปัจจุบัน</h1>
     <div className="flex flex-wrap">
-        {filteredBuildings.map((building:any) => (
+        {filteredBuildings.map((building:any,index:number) => (
           <div className="card w-1/2  sm:w-1/2 md:w-1/3 lg:w-1/4 bg-base-100 shadow-xl">
           <figure className="px-10 pt-10">
               <Image 
+              key={building.id}
               src={building.image} 
               width={250} 
               height={200} 

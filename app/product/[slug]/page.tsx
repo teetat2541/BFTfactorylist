@@ -3,12 +3,13 @@
 import Image from "next/image";
 import { buildingData } from "@/app/api/building/building";
 import { useState } from "react";
-
+import { GetStaticPaths, GetStaticProps } from 'next';
 
 export async function getStaticPaths() {
   return buildingData.map(item => ({
     slug: item.id.toString()
   }));
+  
 }
 
 const ItemPage = ({ params }: any) => {
@@ -16,7 +17,7 @@ const ItemPage = ({ params }: any) => {
   if (!item) {
     return <div>Item not found</div>;
   }
-  const product = item.imageAll
+  const product:any = item.imageAll
   const [tabslide, setTabslide] = useState(0)
   return (
     <div className="p-5">
@@ -29,7 +30,7 @@ const ItemPage = ({ params }: any) => {
               <div className="">
                 <div className="flex flex-col place-items-center">
                   <div className="container grid grid-cols-12 ">
-                    {product?.map((picture: any, i: any) => (
+                    {product?.map((picture: any, i: number) => (
                       <div className={i === tabslide ? "image object-contain border-solid-black" : "w-[5rem]"}>
                         <img
                           onClick={() => setTabslide(i)}
@@ -41,6 +42,7 @@ const ItemPage = ({ params }: any) => {
                     ))}
                   </div>
                   <img
+                    key={product.id}
                     className="object-contain h-80 w-160 bolder-solid-white"
                     src={product?.[tabslide]?.img}
                     width={700}
