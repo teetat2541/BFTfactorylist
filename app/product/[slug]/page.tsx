@@ -3,14 +3,6 @@
 import Image from "next/image";
 import { buildingData } from "@/app/api/building/building";
 import { useState } from "react";
-import { GetStaticPaths, GetStaticProps } from 'next';
-
-export async function getStaticPaths() {
-  return buildingData.map(item => ({
-    slug: item.id.toString()
-  }));
-  
-}
 
 const ItemPage = ({ params }: any) => {
   const item = buildingData.find(item => item.id === params.slug);

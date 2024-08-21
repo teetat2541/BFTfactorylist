@@ -498,7 +498,7 @@ export const buildingData = [
       {id:1,img:'/image/76/1.jpg'},
       ],
     size: '216.5 ตร.ว.',
-    price: '50,000',
+    price: '55,000',
     address: 'จ.สมุทรสาคร ต.คอกกระบือ ถนนเลียบคลองราษฎร์พัฒนา ',
     buildingType: 'โรงงานพร้อมสำนักงาน 3 ชั้น',
     buildingSize: '15.5x33.5 ม.',
