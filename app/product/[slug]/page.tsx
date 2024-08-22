@@ -133,11 +133,12 @@ const ItemPage = ({ params }: any) => {
           </div>
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
             <dt className="text-center text-xl font-medium leading-6">ที่ตั้ง</dt>
-            <dd className="mt-3 text-xl leading-6 sm:col-span-2 sm:mt-0">
+            <dd className="container mx-auto mt-3 text-xl leading-6 sm:col-span-2 sm:mt-0">
               <iframe src={item.map}
+                className=""
                 title="map"
-                width={500}
-                height={400}
+                width={450}
+                height={350}
               >
               </iframe>
             </dd>
