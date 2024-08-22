@@ -21,7 +21,7 @@ const ItemPage = ({ params }: any) => {
             <dd className="">
               <div className="">
                 <div className="flex flex-col place-items-center">
-                  <div className="container mx-auto grid grid-cols-6 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-12 ">
+                  <div className="container mx-auto grid grid-cols-5 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-12 ">
                     {product?.map((picture: any, i: number) => (
                       <div className={i === tabslide ? "image object-contain border-solid-black" : "w-[5rem] "}>
                         <img
