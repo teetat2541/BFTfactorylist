@@ -292,7 +292,7 @@ export const buildingData = [
       {id:20,img:'/image/72/20.jpg'},
       ],
     size: '400sqw',
-    price: '110,000',
+    price: '100,000',
     address: 'จ.สมุทรสาคร ต.คอกกระบือ เลียบคลองสี่วา',
     buildingType: 'โรงงานพร้อมสำนักงาน 3 ชั้น',
     buildingSize: '30x50x12 ม.',
