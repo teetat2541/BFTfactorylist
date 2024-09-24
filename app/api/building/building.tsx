@@ -1,7 +1,7 @@
 export const buildingData = [
   { //ซอยแสงเจริญ 1
     id: '1',
-    status: true,
+    status: false,
     name: 'ซอยแสงเจริญ',
     image: '/image/ซอยแสงเจริญ.jpg',
     imageAll: [
@@ -170,7 +170,7 @@ export const buildingData = [
   },
   { //78 5
     id: '5',
-    status: true,
+    status: false,
     name: '78',
     image: '/image/78.jpg',
     imageAll: [
@@ -266,7 +266,7 @@ export const buildingData = [
   },
   { //72 7
     id: '7',
-    status: false,
+    status: true,
     name: '72',
     image: '/image/72.jpg',
     imageAll: [
@@ -491,7 +491,7 @@ export const buildingData = [
   },
   { //76 11
     id: '11',
-    status: true,
+    status: false,
     name: '76',
     image: '/image/76.jpg',
     imageAll: [
