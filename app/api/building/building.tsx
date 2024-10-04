@@ -266,7 +266,7 @@ export const buildingData = [
   },
   { //72 7
     id: '7',
-    status: true,
+    status: false,
     name: '72',
     image: '/image/72.jpg',
     imageAll: [
