@@ -82,7 +82,7 @@ export const buildingData = [
   },
   { //หมื่นทรัพย์แลน1ชั้น 3
     id: '3',
-    status: false,
+    status: true,
     name: 'หมื่นทรัพย์แลน 1 ชั้น',
     image: '/image/หมื่นทรัพย์1ชั้น.jpg',
     imageAll: [
@@ -94,7 +94,7 @@ export const buildingData = [
       {id:6,img:'/image/หมื่นทรัพย์1ชั้น/6.jpg'},
       ],
     size: '80sqw',
-    price: '27,000',
+    price: '25,000',
     address: 'จ.สมุทรสาครต.คอกกระบือ โครงการหมื่นทรัพย์แลนด์',
     buildingType: 'โรงงานพร้อมสำนักงาน 1 ชั้น',
     buildingSize: '10x32x8 ม.',
@@ -120,7 +120,7 @@ export const buildingData = [
   },
   { //หมื่นทรัพย์แลนห้องคู่ 4
     id: '4',
-    status: false,
+    status: true,
     name: 'หมื่นทรัพย์แลนห้องคู่',
     image: '/image/หมื่นทรัพย์ห้องคู่.jpg',
     imageAll: [
@@ -144,7 +144,7 @@ export const buildingData = [
       {id:18,img:'/image/หมื่นทรัพย์ห้องคู่/18.jpg'},
       ],
     size: '218sqw',
-    price: '68,000',
+    price: '65,000',
     address: 'จ.สมุทรสาครต.คอกกระบือ โครงการหมื่นทรัพย์แลนด์',
     buildingType: 'โรงงานพร้อมสำนักงาน 3 ชั้น',
     buildingSize: '27x32x7 ม.',
