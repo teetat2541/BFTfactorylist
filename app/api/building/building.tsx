@@ -120,7 +120,7 @@ export const buildingData = [
   },
   { //หมื่นทรัพย์แลนห้องคู่ 4
     id: '4',
-    status: true,
+    status: false,
     name: 'หมื่นทรัพย์แลนห้องคู่',
     image: '/image/หมื่นทรัพย์ห้องคู่.jpg',
     imageAll: [
@@ -821,6 +821,6 @@ export const buildingData = [
     fee: 'ไม่มี',
     garbageFee: 'มี',
     availableIn: '',
-    map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1375.8688964972973!2d100.26312472877913!3d13.61645486777589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2bfffed7fe963%3A0x19b5729a6989bb27!2z4Lia4Li1LuC4lOC4tSDguYDguKHguJfguLHguKXguIrguLXguJcgKOC4l-C5iOC4suC5gOC4quC4siDguKrguKHguLjguJfguKPguKrguLLguITguKMp!5e1!3m2!1sth!2sth!4v1733890421413!5m2!1sth!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+    map:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1375.8688964972973!2d100.26312472877913!3d13.61645486777589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2bfffed7fe963%3A0x19b5729a6989bb27!2z4Lia4Li1LuC4lOC4tSDguYDguKHguJfguLHguKXguIrguLXguJcgKOC4l-C5iOC4suC5gOC4quC4siDguKrguKHguLjguJfguKPguKrguLLguITguKMp!5e1!3m2!1sth!2sth!4v1733890421413!5m2!1sth!2sth>'
   },
 ]
