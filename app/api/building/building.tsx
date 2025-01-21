@@ -120,7 +120,7 @@ export const buildingData = [
   },
   { //หมื่นทรัพย์แลนห้องคู่ 4
     id: '4',
-    status: false,
+    status: true,
     name: 'หมื่นทรัพย์แลนห้องคู่',
     image: '/image/หมื่นทรัพย์ห้องคู่.jpg',
     imageAll: [
@@ -784,7 +784,7 @@ export const buildingData = [
   },
   { //89 18
     id: '18',
-    status: true,
+    status: false,
     name: '89',
     image: '/image/89/1.jpg',
     imageAll: [
