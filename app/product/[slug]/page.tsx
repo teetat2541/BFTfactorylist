@@ -64,7 +64,7 @@ const ItemPage = ({ params }: any) => {
             <dd className="mt-3 text-xl leading-6 sm:col-span-2 sm:mt-0">{item.buildingType}</dd>
           </div>
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-            <dt className="text-center text-xl font-medium leading-6">ประเภทอาคาร</dt>
+            <dt className="text-center text-xl font-medium leading-6">ทิศ</dt>
             <dd className="mt-3 text-xl leading-6 sm:col-span-2 sm:mt-0">{item.direction}</dd>
           </div>
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
