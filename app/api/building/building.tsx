@@ -1,7 +1,7 @@
 export const buildingData = [
   { //ซอยแสงเจริญ 1
     id: '1',
-    status: true,
+    status: false,
     name: 'ซอยแสงเจริญ',
     image: '/image/ซอยแสงเจริญ.jpg',
     imageAll: [
@@ -43,7 +43,7 @@ export const buildingData = [
   }, 
   { //หมื่นทรัพย์แลน3ชั้น 2
     id: '2',
-    status: true,
+    status: false,
     name: 'หมื่นทรัพย์แลน 3 ชั้น',
     image: '/image/หมื่นทรัพย์3ชั้น.jpg',
     imageAll: [
@@ -84,7 +84,7 @@ export const buildingData = [
   },
   { //หมื่นทรัพย์แลน1ชั้น 3
     id: '3',
-    status: true,
+    status: false,
     name: 'หมื่นทรัพย์แลน 1 ชั้น',
     image: '/image/หมื่นทรัพย์1ชั้น.jpg',
     imageAll: [
@@ -231,7 +231,7 @@ export const buildingData = [
   },
   { //71 6
     id: '6',
-    status: true,
+    status: false,
     name: '71',
     image: '/image/noimg.jpg',
     imageAll: [
@@ -272,7 +272,7 @@ export const buildingData = [
   },
   { //72 7
     id: '7',
-    status: true,
+    status: false,
     name: '72',
     image: '/image/72.jpg',
     imageAll: [
@@ -723,7 +723,7 @@ export const buildingData = [
   },
   { //87 16
     id: '16',
-    status: false,
+    status: true,
     name: '87',
     image: '/image/87/1.jpg',
     imageAll: [
@@ -845,7 +845,7 @@ export const buildingData = [
     id: '20',
     status: true,
     name: '91',
-    image: '/image/89/1.jpg',
+    image: '/image/91/1.jpg',
     imageAll: [
       {id:1,img:'/image/91/1.jpg'},
       {id:2,img:'/image/91/2.jpg'},
@@ -885,7 +885,7 @@ export const buildingData = [
   },
   { //92 21
     id: '21',
-    status: false,
+    status: true,
     name: '92',
     image: '/image/92/1.jpg',
     imageAll: [
