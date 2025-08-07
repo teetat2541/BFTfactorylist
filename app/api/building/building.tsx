@@ -1,7 +1,7 @@
 export const buildingData = [
   { //ซอยแสงเจริญ 1
     id: '1',
-    status: false,
+    status: true,
     name: 'ซอยแสงเจริญ',
     image: '/image/ซอยแสงเจริญ.jpg',
     imageAll: [
@@ -233,7 +233,7 @@ export const buildingData = [
     id: '6',
     status: false,
     name: '71',
-    image: '/image/noimg.jpg',
+    image: '/image/71.jpg',
     imageAll: [
       {id:1,img:'/image/71/1.jpg'},
       {id:2,img:'/image/71/2.jpg'},
@@ -723,7 +723,7 @@ export const buildingData = [
   },
   { //87 16
     id: '16',
-    status: true,
+    status: false,
     name: '87',
     image: '/image/87/1.jpg',
     imageAll: [
@@ -741,6 +741,19 @@ export const buildingData = [
       {id:12,img:'/image/87/12.jpg'},
       {id:13,img:'/image/87/13.jpg'},
       {id:14,img:'/image/87/14.jpg'},
+      {id:15,img:'/image/87/15.jpg'},
+      {id:16,img:'/image/87/16.jpg'},
+      {id:17,img:'/image/87/17.jpg'},
+      {id:18,img:'/image/87/18.jpg'},
+      {id:19,img:'/image/87/19.jpg'},
+      {id:20,img:'/image/87/20.jpg'},
+      {id:21,img:'/image/87/21.jpg'},
+      {id:22,img:'/image/87/22.jpg'},
+      {id:23,img:'/image/87/23.jpg'},
+      {id:24,img:'/image/87/24.jpg'},
+      {id:25,img:'/image/87/25.jpg'},
+      {id:26,img:'/image/87/26.jpg'},
+      {id:27,img:'/image/87/27.jpg'},
       ],
     size: '449 ตร.ว.',
     price: '100,000',
@@ -856,6 +869,9 @@ export const buildingData = [
       {id:7,img:'/image/91/7.jpg'},
       {id:8,img:'/image/91/8.jpg'},
       {id:9,img:'/image/91/9.jpg'},
+      {id:10,img:'/image/91/10.jpg'},
+      {id:11,img:'/image/91/11.jpg'},
+      {id:12,img:'/image/91/12.jpg'},
       ],
     size: '194 ตร.ว.',
     price: '50,000',
