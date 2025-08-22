@@ -272,7 +272,7 @@ export const buildingData = [
   },
   { //72 7
     id: '7',
-    status: false,
+    status: true,
     name: '72',
     image: '/image/72.jpg',
     imageAll: [
